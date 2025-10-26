@@ -7,13 +7,13 @@ y tengo conocimientos en **C#, Java, SQL, PostgreSQL** y desarrollo de aplicacio
 Me apasiona combinar la lógica y la estructura del código con el diseño funcional y la experiencia del usuario.  
 Busco seguir creciendo como desarrollador, aplicando buenas prácticas, aprendiendo nuevas tecnologías y creando proyectos que integren creatividad, eficiencia e innovación.
 
----
+
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/marcos-daniel-cerezo-83473920a/)
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:marcos_45cerezo@hotmail.com)
 
----
+
 
 # 💻 Tech Stack:
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -31,7 +31,7 @@ Busco seguir creciendo como desarrollador, aplicando buenas prácticas, aprendie
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
 
----
+
 
 # 📊 GitHub Stats:
 
@@ -39,7 +39,7 @@ Busco seguir creciendo como desarrollador, aplicando buenas prácticas, aprendie
 ![](https://nirzak-streak-stats.vercel.app/?user=Marcos45C&theme=radical&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Marcos45C&theme=radical&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
----
+
 
 [![](https://visitcount.itsvg.in/api?id=Marcos45C&icon=0&color=0)](https://visitcount.itsvg.in)
 
