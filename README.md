@@ -21,10 +21,11 @@ Soy estudiante universitario en Desarrollo de Aplicaciones, con experiencia en p
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
 ![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
 # 📊 GitHub Stats:
+<div align="center">
 ![](https://github-readme-stats.vercel.app/api?username=Marcos45C&theme=radical&hide_border=true&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=Marcos45C&theme=radical&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Marcos45C&theme=radical&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
-
+</div>
 ---
 [![](https://visitcount.itsvg.in/api?id=Marcos45C&icon=0&color=0)](https://visitcount.itsvg.in)
 
