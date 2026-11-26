@@ -88,7 +88,7 @@ Mi objetivo es seguir creciendo profesionalmente, participar en proyectos reales
 
 ### 🔌 Hardware, IoT y fabricación digital
 
-- Desarrollo y experimentación con placas **ESP32**.
+- Desarrollo y experimentación con microcontroladores **ESP32**.
 - Integración de sensores y módulos electrónicos.
 - Comunicación entre dispositivos y aplicaciones mediante USB, comunicación serial y Bluetooth.
 - Prototipado de soluciones electrónicas.
@@ -100,61 +100,122 @@ Mi objetivo es seguir creciendo profesionalmente, participar en proyectos reales
 
 ## 💼 Experiencia
 
-- **Soporte y desarrollo industrial:** trabajo con C#/.NET, Windows Server, SQL Server y sistemas RFID.
-- **Impresión 3D (freelance):** diseño e impresión de piezas y productos.
+- **Soporte informático y desarrollo industrial:** asistencia técnica, soporte a usuarios y participación en el desarrollo y mantenimiento de sistemas de trazabilidad utilizando C#/.NET, React y bases de datos.
+- **Diseño e impresión 3D freelance:** diseño, preparación y fabricación de piezas y productos personalizados mediante impresión 3D.
 
 ---
 
-## 🚀 Proyectos y áreas de desarrollo
+## 🚀 Proyectos
 
-Me gusta aplicar los conocimientos adquiridos en proyectos prácticos. Algunos de los trabajos en los que estoy involucrado son:
+### 🛒 Pixel Point — Sistema POS para kiosco
 
-### 🥩 Carnicería Pro — gestión de precios ✅ Publicado
-Aplicación web para que el dueño de una carnicería administre los precios de sus cortes desde el teléfono.
-- Actualización individual y masiva por porcentaje (con redondeo y vista previa), historial de cambios y reversión segura.
-- Interfaz en español con formato argentino (ARS), acceso privado sin registro público.
-- **Stack:** React, TypeScript estricto, Vite, Tailwind CSS, Supabase (Auth + PostgreSQL con RLS), Vitest, Docker + Supabase CLI, GitHub Actions y Netlify.
+<sub>Estado: En funcionamiento en un entorno comercial real.</sub>
 
-### 🛒 Pixel Point — sistema POS para kiosco
-Sistema de punto de venta con React, Vite y Supabase, desplegado en Netlify.
-- Lectura de códigos de barras con lector USB, carrito de compra con descuento de stock e impresión de tickets.
-- ABM de productos y módulo de proveedores (relación muchos a muchos).
-- Promociones dinámicas almacenadas en Supabase (campos JSONB).
-- Acceso protegido con Supabase Auth y políticas RLS.
+Sistema de punto de venta desarrollado para utilizarse en un kiosco, integrando hardware de lectura de códigos de barras y servicios de almacenamiento de información.
 
-### 🎛️ Stream Deck con ESP32 🚧 En desarrollo
-Aplicación de escritorio para administrar y configurar un Stream Deck físico basado en ESP32.
-- **Stack:** C#, .NET 10, Avalonia UI, patrón MVVM y arquitectura en capas (App, Application, Domain, Infrastructure, Device).
-- Compatible con Windows y Linux, tema oscuro.
-- Contempla perfiles, botones configurables, accesos directos, macros y comunicación mediante USB o Bluetooth.
+- Integración de lector de códigos de barras USB.
+- Gestión de productos y operaciones de venta.
+- Integración con Supabase para persistencia de datos.
+- Desarrollo orientado a resolver necesidades reales de un comercio.
 
-### 📱 Seguimiento Nutricional 🚧 En desarrollo
-PWA mobile-first en español, pensada para Android, iPhone y escritorio.
-- Registro de peso diario, fotos de comidas, recordatorios y gráficos de evolución.
-- **Stack:** React, TypeScript, Vite, Tailwind CSS 4 y pnpm, con arquitectura organizada por features.
-- Próxima etapa: backend con Supabase (Auth, PostgreSQL y Storage).
+**Tecnologías:** React, Vite, Supabase y lectores de códigos de barras USB.
+
+### 📱 Seguimiento Nutricional
+
+<sub>Estado: Desplegada y en funcionamiento. Mejoras continuas.</sub>
+
+Aplicación web progresiva (PWA) mobile-first, desarrollada para facilitar el seguimiento diario de información nutricional y hábitos personales.
+
+- Registro de peso y evolución diaria.
+- Registro fotográfico de comidas, con un límite de cuatro fotografías por día.
+- Recordatorios de medicamentos y tratamientos programados.
+- Notificaciones push mediante servicios de Supabase y funciones Edge.
+- Interfaz adaptable a Android, iPhone y escritorio.
+- Trabajo de compatibilidad con Safari y funcionamiento como aplicación instalada.
+
+**Tecnologías:** React, TypeScript, Vite, Tailwind CSS 4, Supabase, Netlify y Web Push.
+
+**Mejoras previstas:** generación y exportación de informes PDF para compartir con profesionales de nutrición.
+
+### 🎛️ Stream Deck con ESP32
+
+<sub>Estado: En desarrollo.</sub>
+
+Aplicación de escritorio para administrar y configurar un dispositivo físico basado en ESP32, con una interfaz orientada a funcionar como un administrador de accesos rápidos y acciones personalizadas.
+
+- Aplicación desarrollada con C# y .NET 10.
+- Interfaz de escritorio con Avalonia UI.
+- Arquitectura organizada por capas y patrón MVVM.
+- Grilla principal fija de 3 × 3, con nueve botones configurables para el MVP.
+- Gestión de perfiles y páginas.
+- Modo de edición para configurar botones.
+- Acciones previstas para aplicaciones, accesos directos, multimedia, macros y carpetas.
+- Desarrollo de la comunicación con el dispositivo mediante USB o Bluetooth.
+
+**Tecnologías:** C#, .NET 10, Avalonia 12, CommunityToolkit.Mvvm y ESP32.
 
 ### 🌬️ Monitor ambiental con ESP32
-Experimentación con sensores electrónicos, incluyendo el módulo MH-Z19C para medición de concentración de CO₂. Desarrollo de firmware con umbrales de advertencia y alarma, además de respuestas visuales y escalonadas.
+
+<sub>Estado: Prototipo en desarrollo.</sub>
+
+Proyecto de integración de hardware y software para realizar mediciones de concentración de dióxido de carbono mediante el sensor MH-Z19C.
+
+- Integración de ESP32 con el módulo MH-Z19C.
+- Definición de umbrales de advertencia y alarma.
+- Advertencia configurada en 1000 ppm.
+- Alarma configurada en 1500 ppm.
+- Comportamiento de alertas escalonado.
+
+**Tecnologías:** ESP32, MH-Z19C, electrónica y firmware.
 
 ### 🖨️ Catálogo de diseños e impresión 3D
-Desarrollo de un sitio web estático con **Astro**, preparado para desplegarse mediante Cloudflare. Orientado a mostrar diseños, modelos y productos de impresión 3D.
 
-### 🏛️ Arquitecturas Web (UNTDF)
-Serie de actividades progresivas construyendo una API y su frontend.
-- API REST con Django y Django REST Framework, documentada con OpenAPI (`drf-spectacular`) y versionada (v1/v2) con serializers anidados.
-- Logging estructurado en JSON con eventos de dominio y correlación de requests.
-- Frontend con Astro (SSG) e islas de React.
-- Docker: modo desarrollo con Compose (Vite + Django + PostgreSQL) y modo producción con Nginx + Gunicorn.
-- En curso: autenticación con JWT (access token en memoria + refresh en cookie HttpOnly) y trabajo práctico de gRPC (llamadas unarias y streaming del servidor).
+<sub>Estado: Proyecto web desarrollado y sujeto a mejoras.</sub>
 
-### 🤖 Desarrollo asistido por agentes (UNTDF)
-Práctica de un flujo de trabajo con agentes basado en los skills de Matt Pocock: *grill → spec → tickets → implementación (TDD + code review) → retro*. Aplicado a agregar la reinscripción a una app de inscripciones en Django, documentando decisiones en ADRs y dividiendo el trabajo en tickets.
+Sitio web estático orientado a presentar diseños, modelos y productos relacionados con impresión 3D.
+
+- Desarrollo con Astro.
+- Estructura estática y enfoque en rendimiento.
+- Preparación para despliegue mediante Cloudflare.
+
+**Tecnologías:** Astro, HTML, CSS y Cloudflare.
+
+### 🏛️ Arquitecturas Web — UNTDF
+
+<sub>Tipo: Trabajo académico.</sub>
+
+Actividades prácticas orientadas al desarrollo de aplicaciones web mediante una API backend y un frontend independiente.
+
+- Desarrollo de API REST con Django y Django REST Framework.
+- Documentación de endpoints mediante OpenAPI.
+- Versionado de APIs y organización de serializers.
+- Frontend con Astro e islas de React.
+- Uso de PostgreSQL y Docker Compose para entornos de desarrollo.
+- Exploración de despliegues con Nginx y Gunicorn.
+- Prácticas de autenticación mediante JWT y comunicación entre servicios con gRPC.
+
+**Tecnologías:** Python, Django, Django REST Framework, PostgreSQL, Astro, React, Docker y OpenAPI.
+
+### 🤖 Desarrollo asistido por agentes de IA — UNTDF
+
+<sub>Tipo: Práctica académica.</sub>
+
+Exploración de metodologías de desarrollo asistido por agentes de inteligencia artificial, aplicadas a la modificación y ampliación de una aplicación existente desarrollada con Django.
+
+- Elaboración de especificaciones técnicas.
+- División del trabajo en tickets.
+- Planificación de tareas y decisiones de arquitectura.
+- Implementación guiada por pruebas (TDD).
+- Revisión de código y retrospectivas.
+- Documentación de decisiones mediante ADRs.
+
+**Enfoque:** ingeniería de software, desarrollo asistido por IA y organización de proyectos.
 
 ### 🎓 Otros trabajos académicos
-- **Austral Market (UI/UX):** diseño en Figma de login, tabla de gestión de productos y formulario/modal para escritorio y mobile, con prototipo y presentación del proyecto.
-- **Proyecto integrador en Java Swing:** aplicación con patrón MVC e interfaz de observador.
-- **Redes:** fundamentos de seguridad, redes convergentes, VoIP y QoS.
+
+- **Austral Market (UI/UX):** diseño de interfaces en Figma, incluyendo login, gestión de productos y formularios adaptables a escritorio y dispositivos móviles.
+- **Proyecto integrador en Java Swing:** aplicación de escritorio con patrón MVC y patrón Observer.
+- **Redes:** trabajos académicos relacionados con redes convergentes, VoIP, QoS y fundamentos de seguridad informática.
 
 ---
 
@@ -162,20 +223,19 @@ Práctica de un flujo de trabajo con agentes basado en los skills de Matt Pocock
 
 Actualmente estoy profundizando en distintas áreas del desarrollo y la tecnología:
 
-- **Python y Django:** Django REST Framework, versionado de APIs, OpenAPI, autenticación con JWT y logging estructurado.
-- **React y TypeScript:** arquitectura de componentes por features, interfaces responsive, PWA y aplicaciones modernas.
-- **Tailwind CSS:** diseño de interfaces y sistemas de estilos (Tailwind 4).
-- **Docker:** contenedores, entornos de desarrollo y producción con Compose, Nginx y Gunicorn.
+- **Python y Django:** desarrollo backend, APIs REST, Django REST Framework y organización de aplicaciones.
+- **React y TypeScript:** arquitectura de componentes, aplicaciones modernas y desarrollo de PWA.
+- **Tailwind CSS:** diseño de interfaces y sistemas de estilos, especialmente con Tailwind CSS 4.
+- **.NET y Avalonia:** aplicaciones de escritorio, MVVM y arquitectura en capas.
+- **Docker:** contenedores, entornos de desarrollo y administración de servicios.
 - **Linux y Fedora:** administración del entorno, terminal, herramientas de desarrollo y configuración del sistema.
-- **.NET y Avalonia:** aplicaciones de escritorio multiplataforma con MVVM y arquitectura en capas.
-- **Bases de datos:** modelado, consultas SQL, PostgreSQL, Supabase y políticas de seguridad a nivel de fila (RLS).
-- **gRPC y Protocol Buffers:** comunicación entre servicios con llamadas unarias y streaming.
-- **Calidad y automatización:** pruebas con Vitest y CI con GitHub Actions.
-- **Desarrollo asistido por agentes:** especificaciones, tickets, TDD y retrospectivas trabajando con agentes de IA.
+- **Bases de datos:** modelado, consultas SQL, PostgreSQL, MySQL y Supabase.
+- **Arquitectura de software:** separación de responsabilidades, REST, OpenAPI, JWT y gRPC.
+- **Desarrollo asistido por IA:** especificaciones, planificación, TDD, revisión de código y trabajo con agentes.
 - **Inteligencia artificial:** formación académica y exploración de aplicaciones de IA en el desarrollo de software.
 - **Redes y ciberseguridad:** formación complementaria y fundamentos tecnológicos.
 - **IoT y electrónica:** integración de microcontroladores, sensores y software.
-- **Diseño UI/UX:** prototipado en Figma y diseño de formularios y flujos.
+- **Diseño UI/UX:** prototipado y diseño de interfaces mediante Figma.
 
 ---
 
@@ -191,9 +251,6 @@ Me interesa especialmente trabajar en:
 - Soporte técnico y administración de sistemas.
 - Integración de hardware, electrónica e IoT.
 - Inteligencia artificial aplicada al desarrollo de software.
-
-Disfruto resolver problemas, investigar tecnologías nuevas y transformar ideas en herramientas que puedan utilizarse en situaciones reales.
-
 ---
 
 ## 📊 GitHub Stats
